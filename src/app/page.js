@@ -1,9 +1,11 @@
-import Example from "@/components/Example";
+import HomeCompAbove from "@/components/HomeCompAbove";
+import { NavbarComp } from "@/components/NavbarComp";
 
 export default function Home() {
   return (
-   <>
-  <Example/>
-   </>
+    <div className="bg-white">
+    <NavbarComp/>
+    <HomeCompAbove/>    
+    </div>
   )
 }
