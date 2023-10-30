@@ -19,7 +19,7 @@ const CarouselComp = () => {
     prevArrow={false} 
     // navigation={false} 
     loop={true} 
-    // autoplayDelay={7000} 
+    autoplayDelay={7000} 
     // transition={{ duration: 5 }} 
     autoplay={true} 
     // className="rounde-xls"
@@ -45,8 +45,17 @@ const CarouselComp = () => {
 
   {/* Konten di lapisan atas */}
   <div className="absolute inset-0  flex items-center justify-left z-20 pl-5">
-    <div className="bg-black p-0 text-left p-5 bg-opacity-60" style={{width:'30%', height:350}}>
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    <div className="bg-black p-0 text-left p-5 bg-opacity-50" style={{width:'40%', height:350}}>
+    <h3 className="text-4xl font-bold tracking-tight text-white-900 sm:text-4xl">
+            <span className="text-blue-600">Page kita</span> solusi untuk bisnis anda
+    </h3>
+    {/* <h1 style={{
+      fontSize: 60,
+      fontWeight: 'bold'
+    }}>Company <span className='text-blue-500'>Profile</span></h1> */}
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis tellus in metus vulputate eu scelerisque felis. Vitae congue mauris rhoncus aenean.
+    </p>
     </div>
   </div>
 
