@@ -44,8 +44,10 @@ const CarouselComp = () => {
 
 
   {/* Konten di lapisan atas */}
-  <div className="absolute inset-0  flex items-center justify-left z-20 pl-5">
-    <div className="bg-black p-0 text-left p-5 bg-opacity-50" style={{width:'40%', height:350}}>
+  <div className="absolute inset-0  flex items-center justify-left z-20 lg:pl-5">
+    <div className="md:w-2/6 md:h-32px bg-black text-lefts p-5 bg-opacity-50" 
+    // style={{width:'40%', height:350}}
+    >
     <h3 className="text-4xl font-bold tracking-tight text-white-900 sm:text-4xl">
             <span className="text-blue-600">Page kita</span> solusi untuk bisnis anda
     </h3>
