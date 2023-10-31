@@ -22,6 +22,7 @@ export default function Responsive() {
         <div class="bg-green-500 flex-1">Flex item 1</div>
         <div class="bg-yellow-500 flex-1">Flex item 2</div>
         <div class="flex-1">Flex item 3</div>
+        <div class="bg-green-500 flex-1">Flex item 4</div>
       </div>
     </>
   );
