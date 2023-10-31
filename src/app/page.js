@@ -1,6 +1,7 @@
 import AboutComp from "@/components/AboutComp";
 import HomeCompAbove from "@/components/HomeCompAbove";
 import { NavbarComp } from "@/components/NavbarComp";
+import Responsive from "@/components/Responsive";
 import SolutionComp from "@/components/SolutionComp";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <HomeCompAbove/>
     <AboutComp/>    
     <SolutionComp/>
+    <Responsive/>
     </div>
   )
 }
