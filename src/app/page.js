@@ -9,9 +9,9 @@ export default function Home() {
     <div className="bg-white">
     <NavbarComp/>
     <HomeCompAbove/>
-    <AboutComp/>    
+    <AboutComp/>
     <SolutionComp/>
-    <Responsive/>
+    {/* <Responsive/> */}
     </div>
   )
 }

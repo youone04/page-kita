@@ -1,4 +1,12 @@
+"use client"
+
+import Aos from "aos";
+import { useEffect } from "react";
+
 export default function SolutionComp() {
+  useEffect(() => {
+    Aos.init();
+  },[])
   return (
     <>
       {/* flex-col => agar tampilan flex kebawah */}
@@ -31,13 +39,14 @@ export default function SolutionComp() {
             sm:flex-row sm:flex-wrap
             "
           >
-            <div className="flex flex-col w-full sm:flex-row sm:flex-wrap ">
+            <div className="flex flex-col w-full sm:flex-row sm:flex-wrap">
               <div className="flex-2">
                 <img
                   className="mx-auto"
                   src="https://hrkit.rometheme.pro/zevana/wp-content/uploads/sites/75/2023/05/icon-3-1.png"
                   style={{ width: 200 }}
                   alt="test"
+                  data-aos="fade-up"
                 />
               </div>
 
@@ -56,16 +65,34 @@ export default function SolutionComp() {
             flex-row flex-wrap
             md:flex-row md:flex-wrap"
           >
-            <div className="lg:p-5">yudi gunawan</div>
+            <div className="lg:p-0">
+              <div className="flex flex-col w-full sm:flex-row sm:flex-wrap lg:p-0">
+
+              <div className="flex-2">
+              <img
+                  className="mx-auto"
+                  src="https://hrkit.rometheme.pro/zevana/wp-content/uploads/sites/75/2023/05/icon-4-4.png"
+                  style={{ width: 200 }}
+                  alt="test"
+                  data-aos="fade-down"
+                />
+              </div>
+
+              <div className="flex-1">
+                Web development
+              </div>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="flex flex-col mb-3">
+      {/* <div class="flex flex-col mb-3">
         <div class="p-4 bg-blue-500">Item 1</div>
         <div class="p-4 bg-green-500">Item 2</div>
         <div class="p-4 bg-red-500">Item 3</div>
-      </div>
+      </div> */}
 
       {/* <div
         style={{ height: 220 }}
